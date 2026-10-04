@@ -1,0 +1,9 @@
+target/
+*.class
+.idea/
+*.iml
+*.bak*
+.orig-bak-*/
+.m2repo/
+lib/
+dependency-reduced-pom.xml

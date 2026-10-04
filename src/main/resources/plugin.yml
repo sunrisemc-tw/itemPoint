@@ -1,0 +1,11 @@
+name: itemPoint
+version: '${project.version}'
+main: me.googledino_tw.itempoint.ItemPoint
+api-version: '1.21'
+folia-supported: true
+softdepend: [PlayerPoints]
+commands:
+  givecoin:
+    description: give coin
+    usage: /<command> <每個可兌換日幣數量> [張數]
+    permission: itemcoin.use
